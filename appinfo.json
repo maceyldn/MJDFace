@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Andy Mace",
+    "longName": "Tutorial-1-3",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "MJD",
+    "uuid": "6a498451-041b-4397-a708-1c2cc63d44b0",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
