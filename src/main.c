@@ -112,15 +112,3 @@ int main(void) {
   app_event_loop();
   deinit();
 }
-
-long date_to_mjd (long year, long month, long day)
-{
-    return
-        367 * year
-        - 7 * (year + (month + 9) / 12) / 4
-        - 3 * ((year + (month - 9) / 7) / 100 + 1) / 4
-        + 275 * month / 9
-        + day
-        + 1721028
-        - 2400000;
-}
